@@ -122,7 +122,7 @@ async def list_mcp_servers(
         async with httpx.AsyncClient() as client:
             headers = {
                 "Accept": "application/json",
-                "User-Agent": "Suna-MCP-Integration/1.0"
+                "User-Agent": "AgentX-MCP-Integration/1.0"
             }
             
             # Add API key if available
@@ -187,7 +187,7 @@ async def get_mcp_server_details(
         async with httpx.AsyncClient() as client:
             headers = {
                 "Accept": "application/json",
-                "User-Agent": "Suna-MCP-Integration/1.0"
+                "User-Agent": "AgentX-MCP-Integration/1.0"
             }
             
             # Add API key if available
@@ -259,7 +259,7 @@ async def get_popular_mcp_servers(
         async with httpx.AsyncClient() as client:
             headers = {
                 "Accept": "application/json",
-                "User-Agent": "Suna-MCP-Integration/1.0"
+                "User-Agent": "AgentX-MCP-Integration/1.0"
             }
             
             # Add API key if available

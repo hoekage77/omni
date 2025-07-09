@@ -1,11 +1,11 @@
 export const siteConfig = {
   name: 'Agent X',
-  url: 'https://suna.so/',
+  url: 'http://146.190.141.213:3000/',
   description: 'Agent X',
   links: {
-    twitter: 'https://x.com/kortixai',
-    github: 'https://github.com/kortix-ai/',
-    linkedin: 'https://www.linkedin.com/company/kortix/',
+    twitter: 'https://x.com/kageai',
+    github: 'https://github.com/kage-ai/',
+    linkedin: 'https://www.linkedin.com/company/kage/',
   },
 };
 

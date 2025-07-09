@@ -87,7 +87,7 @@ export const ChatSettingsDropdown: React.FC<ChatSettingsDropdownProps> = ({
       name: 'Agent X',
       description: 'Your personal AI assistant',
       type: 'default' as const,
-      icon: <Image src="/kortix-symbol.svg" alt="Agent X" width={16} height={16} className="h-4 w-4 dark:invert" />
+      icon: <Image src="/kage-symbol.svg" alt="Agent X" width={16} height={16} className="h-4 w-4 dark:invert" />
     },
     ...PREDEFINED_AGENTS.map(agent => ({
       ...agent,
@@ -128,7 +128,7 @@ export const ChatSettingsDropdown: React.FC<ChatSettingsDropdownProps> = ({
     }
     return {
       name: 'Agent X',
-      icon: <Image src="/kortix-symbol.svg" alt="Agent X" width={16} height={16} className="h-4 w-4 dark:invert" />
+      icon: <Image src="/kage-symbol.svg" alt="Agent X" width={16} height={16} className="h-4 w-4 dark:invert" />
     };
   };
 

@@ -42,9 +42,9 @@ export function KortixProcessModal() {
               <div className="mb-8 mt-0 flex-shrink-0">
                 <Image
                   src={
-                    isDarkMode ? '/kortix-logo-white.svg' : '/kortix-logo.svg'
+                    isDarkMode ? '/kage-logo-white.svg' : '/kage.svg'
                   }
-                  alt="Kortix Logo"
+                  alt="Kage Logo"
                   width={60}
                   height={21}
                   className="h-6 w-auto"

@@ -100,10 +100,10 @@ export function Navbar() {
   const handleOverlayClick = () => setIsDrawerOpen(false);
 
   const logoSrc = !mounted
-    ? '/kortix-logo.svg'
+    ? '/kage.svg'
     : resolvedTheme === 'dark'
-      ? '/kortix-logo-white.svg'
-      : '/kortix-logo.svg';
+      ? '/kage-logo-white.svg'
+      : '/kage.svg';
 
   return (
     <header
@@ -129,7 +129,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center gap-3">
               <Image
                 src={logoSrc}
-                alt="Kortix Logo"
+                alt="Kage Logo"
                 width={140}
                 height={22}
                 priority
@@ -208,13 +208,13 @@ export function Navbar() {
                   <Link href="/" className="flex items-center gap-3">
                     <Image
                       src={logoSrc}
-                      alt="Kortix Logo"
+                      alt="Kage Logo"
                       width={120}
                       height={22}
                       priority
                     />
                     <span className="font-medium text-primary text-sm">
-                      / Suna
+                      / Agent X
                     </span>
                   </Link>
                   <button

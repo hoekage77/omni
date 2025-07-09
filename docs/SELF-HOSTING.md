@@ -1,6 +1,6 @@
-# Suna Self-Hosting Guide
+# Agent X Self-Hosting Guide
 
-This guide provides detailed instructions for setting up and hosting your own instance of Suna, an open-source generalist AI agent.
+This guide provides detailed instructions for setting up and hosting your own instance of Agent X, an open-source generalist AI agent.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This guide provides detailed instructions for setting up and hosting your own in
 
 ## Overview
 
-Suna consists of four main components:
+Agent X consists of four main components:
 
 1. **Backend API** - Python/FastAPI service for REST endpoints, thread management, and LLM integration
 2. **Frontend** - Next.js/React application providing the user interface
@@ -81,8 +81,8 @@ For manual setup, you'll also need:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/kortix-ai/suna.git
-cd suna
+git clone https://github.com/agentx-ai/agent-x.git
+cd agent-x
 ```
 
 ### 2. Run the Setup Wizard

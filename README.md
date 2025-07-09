@@ -108,7 +108,7 @@ The setup process includes:
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/kortix-ai/suna.git
+git clone https://github.com/agentx-ai/agent-x.git
 cd suna
 ```
 
@@ -159,4 +159,4 @@ We welcome contributions from the community! Please see our [Contributing Guide]
 
 ## License
 
-Kortix Suna is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for the full license text.
+Agent X is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for the full license text.
